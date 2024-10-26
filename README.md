@@ -73,8 +73,8 @@ fs
 
 # 指定当前的工作文件夹
 import os
-# 此处为google drive中的文件路径,drive为之前指定的工作根目录，要加上
-os.chdir("/content/drive/MyDrive/LapSRN/") 
+# 此处为google drive中的文件路径,drive为之前指定的工作根目录，要加上os.chdir("/content/drive/MyDrive/LapSRN/") 
+
 <br />
 3.安裝Pytorch以及torchvision
 <br />
