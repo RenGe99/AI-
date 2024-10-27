@@ -33,29 +33,27 @@ Colab是什麼？
 <br />
 Colab的基本配置<br />
 1.登入Google Drive<br />
-2.在Google Drive 上建立資料夾，我建立的是名字為app 的資料夾
+2.在Google Drive 上建立資料夾，我建立的是名字為app 的資料夾<br />
 
+![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714224844251-1534150405.png)
 
-s
+3.建立新的Colab 筆記（Notebook），透過右鍵點擊> More > Colaboratory 步驟建立一個新的筆記<br />
 
-3.建立新的Colab 筆記（Notebook），透過右鍵點擊> More > Colaboratory 步驟建立一個新的筆記
-<br />
-透過點擊檔案名稱來重新命名筆記
-ss
+![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225153623-189155043.png)
 
-ss0
+透過點擊檔案名稱來重新命名筆記<br />
 
-4.打開GPU
-<br/>
+![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225240840-1044399482.png)
+
+4.打開GPU<br/>
   Edit > Notebook settings或進入Runtime > Change runtime type，然後選擇GPU作為Hardware accelerator（硬體加速器）。
 
-sss
+![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225413657-1785459503.png)
 
-5.使用Google Colab 運行基本的Python 程式碼
-<br />
+5.使用Google Colab 運行基本的Python 程式碼<br />
   這個倒是不常用，使用這個功能類似jupyter notebook，而我們要跑的程式碼基本上是已經編輯好的工程項目。利用colab主要是想透過GPU加速更快的訓練。
 
-sbs
+![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225610556-1791273060.png)
 
 6.在建立的資料夾頁面上傳你的整個要跑的檔案(包括資料集)，右鍵選取upload fold 或直接拖曳也行
 
@@ -63,31 +61,29 @@ sbs
 
 Colab 模型訓練
 <br />
-1.載入磁碟
+1.載入磁碟 <br />
 
 from google.colab import drive
 drive.mount('/content/drive/')
 fs
 
-2.切換到你要跑的目錄下面
+2.切換到你要跑的目錄下面 <br />
 
 # 指定当前的工作文件夹
 import os
 # 此处为google drive中的文件路径,drive为之前指定的工作根目录，要加上os.chdir("/content/drive/MyDrive/LapSRN/") 
 
 <br />
-3.安裝Pytorch以及torchvision
-<br />
+3.安裝Pytorch以及torchvision <br />
 Colab 一般情況下已經自備了pytorch環境了。若沒有可以進行對應的安裝：
 
-!pip install torch torchvision  # 在Colab中执行操作语句时，感叹号不能漏
-<br />
-4.執行訓練命令
+!pip install torch torchvision  # 在Colab中执行操作语句时，感叹号不能漏<br />
+
+4.執行訓練命令 <br />
 
 fs
 
-注意事項
-<br />
+5.注意事項 <br />
 最重要的是路徑問題，一般在data.py或dateset.py檔案裡面有關於路徑的，還有save model時候。可以將路徑相關的都改成parse的語句，在執行指令時傳入防止出錯。相關的路徑可以直接複製
 
 
