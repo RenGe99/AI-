@@ -20,14 +20,16 @@ Colab是什麼？
  <br />
 
 1.Google Colab 是一個免費的雲端服務並支援免費的GPU，可以：
-提升你的Python語言的程式設計技能。
-使用Keras、TensorFlow、PyTorch和OpenCV等流行庫開發深度學習應用程式。Colab 與其它免費的雲端服務最重要的區別在於：Colab提供完全免費的GPU，為學生黨進行AI學習提供便利。
+1-1 提升你的Python語言的程式設計技能。<br />
+1-2 使用Keras、TensorFlow、PyTorch和OpenCV等流行庫開發深度學習應用程式。<br />
+1-3 Colab 與其它免費的雲端服務最重要的區別在於：Colab提供完全免費的GPU，為學生黨進行AI學習提供便利。<br />
 
 <br />
 
-2.Colab 是Google的且伺服器在國外如果不能使用Google，建議使用Kaggle（國內也能使用）👉免費的深度學習GPU環境Colab和Kaggle搭配使用
+2.Colab 是Google的且伺服器在國外<br />
+如果不能使用Google，建議使用Kaggle（國內也能使用）👉免費的深度學習GPU環境Colab和Kaggle搭配使用<br />
 如果可以上Google，那就繼續往下看學習Colab用法！
-Colab的基本配置
+
 
 <br />
 Colab的基本配置
