@@ -27,16 +27,14 @@ Colab是什麼？
 <br />
 
 2.Colab 是Google的且伺服器在國外<br />
-如果不能使用Google，建議使用Kaggle（國內也能使用）👉免費的深度學習GPU環境Colab和Kaggle搭配使用<br />
-如果可以上Google，那就繼續往下看學習Colab用法！
-
+2-1 如果不能使用Google，建議使用Kaggle（國內也能使用）👉免費的深度學習GPU環境Colab和Kaggle搭配使用<br />
+2-2如果可以上Google，那就繼續往下看學習Colab用法！
 
 <br />
-Colab的基本配置
-
-1.登入Google Drive
-
+Colab的基本配置<br />
+1.登入Google Drive<br />
 2.在Google Drive 上建立資料夾，我建立的是名字為app 的資料夾
+
 
 s
 
