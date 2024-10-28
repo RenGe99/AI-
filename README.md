@@ -59,32 +59,6 @@ Colab的基本配置<br />
 
 <br />
 
-Colab 模型訓練
-<br />
-1.載入磁碟 <br />
-
-from google.colab import drive
-drive.mount('/content/drive/')
-fs
-
-2.切換到你要跑的目錄下面 <br />
-
-# 指定当前的工作文件夹
-import os
-# 此处为google drive中的文件路径,drive为之前指定的工作根目录，要加上os.chdir("/content/drive/MyDrive/LapSRN/") 
-
-<br />
-3.安裝Pytorch以及torchvision <br />
-Colab 一般情況下已經自備了pytorch環境了。若沒有可以進行對應的安裝：
-
-!pip install torch torchvision  # 在Colab中执行操作语句时，感叹号不能漏<br />
-
-4.執行訓練命令 <br />
-
-fs
-
-5.注意事項 <br />
-最重要的是路徑問題，一般在data.py或dateset.py檔案裡面有關於路徑的，還有save model時候。可以將路徑相關的都改成parse的語句，在執行指令時傳入防止出錯。相關的路徑可以直接複製
 
 
 
