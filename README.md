@@ -43,7 +43,7 @@ Colab的基本配置<br />
 
 透過點擊檔案名稱來重新命名筆記<br />
 
-![image](螢幕擷取畫面 (59))
+![image](https://github.com/RenGe99/AI-/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(59).png?raw=true)
 
 4.打開GPU<br/>
   Edit > Notebook settings或進入Runtime > Change runtime type，然後選擇GPU作為Hardware accelerator（硬體加速器）。
