@@ -35,7 +35,7 @@ Colab的基本配置<br />
 1.登入Google Drive<br />
 2.在Google Drive 上建立資料夾，我建立的是名字為app 的資料夾<br />
 
-![image](螢幕擷取畫面 (56))
+![image](https://github.com/RenGe99/AI-/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(56).png?raw=true)
 
 3.建立新的Colab 筆記（Notebook），透過右鍵點擊> More > Colaboratory 步驟建立一個新的筆記<br />
 
