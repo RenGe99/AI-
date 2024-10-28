@@ -48,7 +48,7 @@ Colab的基本配置<br />
 4.打開GPU<br/>
   Edit > Notebook settings或進入Runtime > Change runtime type，然後選擇GPU作為Hardware accelerator（硬體加速器）。
 
-![image](螢幕擷取畫面 (61))
+![image](https://github.com/RenGe99/AI-/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(61).png?raw=true)
 
 5.使用Google Colab 運行基本的Python 程式碼<br />
   這個倒是不常用，使用這個功能類似jupyter notebook，而我們要跑的程式碼基本上是已經編輯好的工程項目。利用colab主要是想透過GPU加速更快的訓練。
