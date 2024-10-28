@@ -35,25 +35,25 @@ Colab的基本配置<br />
 1.登入Google Drive<br />
 2.在Google Drive 上建立資料夾，我建立的是名字為app 的資料夾<br />
 
-![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714224844251-1534150405.png)
+![image](螢幕擷取畫面 (56))
 
 3.建立新的Colab 筆記（Notebook），透過右鍵點擊> More > Colaboratory 步驟建立一個新的筆記<br />
 
-![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225153623-189155043.png)
+![image](螢幕擷取畫面 (57))
 
 透過點擊檔案名稱來重新命名筆記<br />
 
-![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225240840-1044399482.png)
+![image](螢幕擷取畫面 (59))
 
 4.打開GPU<br/>
   Edit > Notebook settings或進入Runtime > Change runtime type，然後選擇GPU作為Hardware accelerator（硬體加速器）。
 
-![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225413657-1785459503.png)
+![image](螢幕擷取畫面 (61))
 
 5.使用Google Colab 運行基本的Python 程式碼<br />
   這個倒是不常用，使用這個功能類似jupyter notebook，而我們要跑的程式碼基本上是已經編輯好的工程項目。利用colab主要是想透過GPU加速更快的訓練。
 
-![image](https://img2018.cnblogs.com/blog/1538832/201907/1538832-20190714225610556-1791273060.png)
+![image](螢幕擷取畫面 (62))
 
 6.在建立的資料夾頁面上傳你的整個要跑的檔案(包括資料集)，右鍵選取upload fold 或直接拖曳也行
 
