@@ -70,7 +70,7 @@ Colab 模型训练<br />
 
 Colab 一般情况下已经自带了pytorch环境了。若没有可以进行相应的安装<br />
 4.执行训练命令<br />
-![image]
+![image](https://github.com/RenGe99/AI-/blob/main/5.png?raw=true)
 
 5.注意事项<br />
 最重要的是路径问题，一般在data.py或者dateset.py文件里面有关于路径的，还有save model时候。可以将路径相关的都改成parse的语句，在执行命令时传入防止出错。相关的路径可以直接复制
