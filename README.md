@@ -60,8 +60,8 @@ Colab的基本配置<br />
 <br />
 Colab 模型训练<br />
 1.加载盘<br />
-![image]
-![image](https://github.com/RenGe99/AI-/blob/main/2.png?raw=true)
+![image](https://github.com/RenGe99/AI-/blob/main/1.jpg?raw=true)<br />
+![image](https://github.com/RenGe99/AI-/blob/main/2.png?raw=true)<br />
 
 2.切换到你要跑的目录下面<br />
 ![image]
