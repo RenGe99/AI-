@@ -69,7 +69,7 @@ Colab 模型训练<br />
 ![image](https://github.com/RenGe99/AI-/blob/main/3.jpg?raw=true)
 
 3.安装Pytorch以及torchvision<br />
-![image]
+![image](https://github.com/RenGe99/AI-/blob/main/4.png?raw=true)
 
 Colab 一般情况下已经自带了pytorch环境了。若没有可以进行相应的安装<br />
 4.执行训练命令<br />
