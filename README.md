@@ -63,7 +63,7 @@ Colab 模型训练<br />
 ![image]
 
 2.切换到你要跑的目录下面<br />
-![image]
+![image](https://github.com/RenGe99/AI-/blob/main/2.png?raw=true)
 
 3.安装Pytorch以及torchvision<br />
 ![image]
